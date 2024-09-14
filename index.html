@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mahendra Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="images/logo.png" class="logo"> -->
+             <p class="logo"><span>M</span>ahendra</p>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Aspiring Software Engineer</p>
+            <h1>Hi, I'm <span>Mahendra</span><br>Bellam From India</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Portfolio About.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a motivated software developer with a solid understanding of Python, Cyber Security, and SQL. As a recent graduate, I'm eager to apply my skills in real-world projects and continuously learn new technologies. I'm passionate about problem-solving and excited to begin my career in software development.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Python Developer</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Cyber Security</span><br>Protecting from Cyber Attacks</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>AI Azure Fundamentals</span><br>Certified by Microsoft AI Azure Fundamentals.</li>
+                        <li><span>Cyber Security</span><br>Trained and Certified by Infosys.</li>
+                        <li><span>Python</span><br>Trained and Certified by CAT Computer Point.</li>
+                        <li><span>Artificial Intelligence with Python</span><br>Certified by Coincent in Artificial Intelligence with Python for Internship.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelor's Degree(2023)</span><br>Sree Venkateswara College of Engineering - 7.17CGPA.</li>
+                        <li><span>XII Standard(2019)</span><br>Narayana Junior College - 8.8CGPA.</li>
+                        <li><span>SSC(2017)</span><br>Ratnam E.M High School - 8.78CGPA.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Cyber Security</h2>
+                <p>I specialize in cybersecurity, focusing on safeguarding systems from threats through proactive risk assessment, advanced threat detection, and robust incident response. My expertise ensures comprehensive protection for digital assets and data integrity in a rapidly evolving cyber landscape.</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Developer</h2>
+                <p>I am an enthusiastic entry-level Python developer with a foundational understanding of the language. I enjoy solving problems through coding and have experience working on basic projects, focusing on writing clean and efficient code as I continue to expand my skills.</p>
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>I am an eager entry-level web developer with a solid grasp of fundamental web technologies like HTML, CSS, and JavaScript. I have hands-on experience in building responsive websites and am committed to enhancing my skills as I work on more complex projects.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/hq721.jpg">
+                <div class="layer">
+                    <h3>Major Project</h3>
+                    <p>My major project in my bachelor's was an Emotion-Based Music Recommendation System, which utilized facial expression recognition to suggest music based on the user's emotions. This project combined AI techniques and music analytics to enhance user experience.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/number guess.png">
+                <div class="layer">
+                    <h3>Mini Project</h3>
+                    <p>My mini-project in my bachelor's was a Number Guessing Game developed using Python. where the system randomly selects a number within a user-defined range. The player has a limited number of attempts to guess the correct number, offering a fun challenge in logic and probability.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/portfolio.png">
+                <div class="layer">
+                    <h3>My Portfolio</h3>
+                    <p>As a recent graduate, my portfolio highlights my foundational skills and eagerness to tackle real-world challenges. It showcases my practical projects and commitment to growth as a Aspiring Software Engineer</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">Back to Top</a> -->
+    </div>
+</div>
+<!-- --------------Certfications----------------  -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/tuxpi.com.1725434768.jpg">
+                <div class="layer">
+                    <!-- <h3>Online Shopping App</h3> -->
+                    <p>I am certified in Microsoft Azure AI Fundamentals, showcasing my knowledge in AI concepts and Azure services. This certification highlights my ability to apply AI solutions using cloud technologies effectively.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tuxpi.com.1725435471.jpg">
+                <div class="layer">
+                    <!-- <h3>Online Shopping App</h3> -->
+                    <p>I have successfully completed an Introduction to Cyber Security course from Infosys, gaining foundational knowledge in protecting digital systems and data. As a fresher, I am eager to apply these skills in real-world scenarios.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Intenship_page-0001.jpg">
+                <div class="layer">
+                    <!-- <h3>Online Shopping App</h3> -->
+                    <p>I completed an internship program in Artificial Intelligence with Python at Coincent, where I gained hands-on experience in AI techniques and their practical implementation using Python. This experience has helped me develop a solid foundation in AI development.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">Back to Top</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> mahendra.bellam@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 7981909040</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mahendra-bellam/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/MahendraBellam"><i class="fab fa-github-square"></i></a>
+                    <a href="https://www.instagram.com/this._.is._.mahe/?next=%2F"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100095013122614"><i class="fab fa-facebook"></i></a>
+                </div>
+                <a href="images/Mahendra CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Mahendra Bellam. Web Developer, Python Developer.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwsr082ApoLGt-0AjKInVBwVUOxHvzihlxSuIAE8EscN6FkquqrvZDQ0roh9BVlD8Z4FQ/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
